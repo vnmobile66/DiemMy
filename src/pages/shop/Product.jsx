@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import apiProduct from "../../api/apiProduct";
 import "../../api/config";
 import ProductItem from "./ProductItem";
+
 const Product=()=>{
     const [currentPage, setCurrentPage] = useState(1);
     const [products, setProducts] = useState([]);

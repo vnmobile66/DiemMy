@@ -1,6 +1,6 @@
 const ProductByCat=()=>{
     return ( <> 
-<div class="cart-container">
+<div className="cart-container">
        cat
 </div>
     </> )

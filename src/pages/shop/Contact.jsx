@@ -1,4 +1,4 @@
-const Contract=()=>{
-    return ( <h1>Contract Page</h1> )
+const Contact=()=>{
+    return ( <h1>Contact Page</h1> )
 }
-export default Contract;
+export default Contact;

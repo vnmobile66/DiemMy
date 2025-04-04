@@ -1,4 +1,6 @@
 import React from "react";
+import { BsHouseHeart } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Service=()=>{
     return(
@@ -13,13 +15,13 @@ const Service=()=>{
                 <div className="row g-5">
                     <div className="col-md-6">
                         <div className="service-item bg-light d-flex p-4">
-                            <i className="flaticon-house display-1 text-primary me-4"></i>
+                            <BsHouseHeart className="display-1 text-primary me-4"/>
                             <div>
                                 <h5 className="text-uppercase mb-3">Pet Boarding</h5>
                                 <p>
                                 Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit
                                 </p>
-                                <a className="text-primary text-uppercase" href="">Read more</a>
+                                <Link className="text-primary text-uppercase" to="/">Read more</Link>
                             </div>
                         </div>
                     </div>
@@ -31,7 +33,7 @@ const Service=()=>{
                                 <p>
                                 Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit
                                 </p>
-                                <a className="text-primary text-uppercase" href="">Read more</a>
+                                <Link className="text-primary text-uppercase" to="/">Read more</Link>
                             </div>
                         </div>
                     </div>
@@ -43,7 +45,7 @@ const Service=()=>{
                                 <p>
                                 Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit
                                 </p>
-                                <a className="text-primary text-uppercase" href="">Read more</a>
+                                <Link className="text-primary text-uppercase" to="/">Read more</Link>
                             </div>
                         </div>
                     </div>
@@ -55,7 +57,7 @@ const Service=()=>{
                                 <p>
                                 Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit
                                 </p>
-                                <a className="text-primary text-uppercase" href="">Read more</a>
+                                <Link className="text-primary text-uppercase" to="/">Read more</Link>
                             </div>
                         </div>
                     </div>
@@ -67,7 +69,7 @@ const Service=()=>{
                                 <p>
                                 Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit
                                 </p>
-                                <a className="text-primary text-uppercase" href="">Read more</a>
+                                <Link className="text-primary text-uppercase" to="/">Read more</Link>
                             </div>
                         </div>
                     </div>
@@ -79,7 +81,7 @@ const Service=()=>{
                                 <p>
                                 Kasd dolor no lorem sit tempor at justo rebum rebum stet justo elitr dolor amet sit
                                 </p>
-                                <a className="text-primary text-uppercase" href="">Read more</a>
+                                <Link className="text-primary text-uppercase" to="/">Read more</Link>
                             </div>
                         </div>
                     </div>

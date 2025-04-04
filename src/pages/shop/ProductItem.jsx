@@ -6,7 +6,7 @@ function ProductItem(props){
         <div className="product-image-wrapper">
             <div className="single-products">
                 <div className="productinfo text-center">
-                    <img class="img" src={imageURL + props.product.image} alt={props.product.image} />
+                    <img className="img" src={imageURL + props.product.image} alt={props.product.image} />
                     <h2>{props.product.price.toLocaleString()}VNĐ</h2>
                     <p>{props.product.product_name}</p>
                     <Link to={`/product-detail/${props.product.slug}`} >
